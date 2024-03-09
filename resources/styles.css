@@ -184,3 +184,19 @@ img {
     font-weight: 600;
     border-radius: 8px;
 }
+
+/* Footer Section */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 50px;
+}
