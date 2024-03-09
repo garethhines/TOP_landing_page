@@ -4,6 +4,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header Section */
+
 .header-section {
     background-color: #1F2937;
     padding: 30px 250px;
@@ -68,7 +70,7 @@ img {
     height: auto;
 }
 
-button {
+.signup-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 20px;
@@ -139,4 +141,46 @@ button {
 .quote-author {
     align-self: flex-end;
     margin-right: 350px;
+}
+
+/* Modal Section */
+
+.modal-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 100px;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    flex-shrink: 1;
+    padding: 50px 250px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.modal-text h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.modal-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.modal-button {
+    padding: 8px 45px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    color: #F9FAF8;
+    font-weight: 600;
+    border-radius: 8px;
 }
